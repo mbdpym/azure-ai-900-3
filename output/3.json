@@ -1,0 +1,44 @@
+{
+    "documents": [
+        {
+            "id": "id__1345",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.02,
+                "neutral": 0.2,
+                "negative": 0.78
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.04,
+                        "negative": 0.94
+                    },
+                    "offset": 0,
+                    "length": 199,
+                    "text": "I think it’s important to identify signs like these that can make tendencies to fall to violent extremism and stop the pipeline before such atrocities occur and lives are lost and people are harmed. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.35,
+                        "negative": 0.62
+                    },
+                    "offset": 199,
+                    "length": 133,
+                    "text": "You’re not sympathizing with them but trying to stop it at the earliest stage, and being aware of warning signs in their development.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

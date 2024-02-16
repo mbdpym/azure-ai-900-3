@@ -1,0 +1,75 @@
+[
+    {
+        "kind": "AbstractiveSummarizationLROResults",
+        "lastUpdateDateTime": "2024-02-16T22:19:29.5159463Z",
+        "status": "succeeded",
+        "results": {
+            "documents": [
+                {
+                    "summaries": [
+                        {
+                            "text": "O texto descreve a experiência de viver em um mundo de rodas, onde a gente se sente como quem partiu ou morreu, estancou de repente ou foi o mundo então que cresceu. A gente quer ter voz ativa no nosso destino mandar, mas eis que chega a roda-viva e carrega o destino pra lá. A roda da saia, a mulata, não quer mais rodar, não posso fazer serenata, e um dia a fogueira queimou. Foi tudo ilusão passageira que a brisa primeira levou. No peito a saudade cativa, faz força pro tempo parar, mas ele chega e, em um instante, carrega sua saudade para lá.",
+                            "contexts": [
+                                {
+                                    "offset": 0,
+                                    "length": 1476
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "id__807",
+                    "warnings": []
+                }
+            ],
+            "errors": [],
+            "modelVersion": "latest"
+        }
+    },
+    {
+        "kind": "ExtractiveSummarizationLROResults",
+        "lastUpdateDateTime": "2024-02-16T22:19:27.8988709Z",
+        "status": "succeeded",
+        "results": {
+            "documents": [
+                {
+                    "id": "id__807",
+                    "sentences": [
+                        {
+                            "text": "Tem dias que a gente se sente",
+                            "rankScore": 0.92,
+                            "offset": 0,
+                            "length": 29
+                        },
+                        {
+                            "text": "Ou foi o mundo então que cresceu",
+                            "rankScore": 1,
+                            "offset": 85,
+                            "length": 32
+                        },
+                        {
+                            "text": "A roda da saia, a mulata",
+                            "rankScore": 0.82,
+                            "offset": 651,
+                            "length": 24
+                        },
+                        {
+                            "text": "A roda de samba acabou",
+                            "rankScore": 0.89,
+                            "offset": 733,
+                            "length": 22
+                        },
+                        {
+                            "text": "O samba, a viola, a roseira",
+                            "rankScore": 0.82,
+                            "offset": 960,
+                            "length": 27
+                        }
+                    ],
+                    "warnings": []
+                }
+            ],
+            "errors": [],
+            "modelVersion": "2023-02-01-preview"
+        }
+    }
+]
